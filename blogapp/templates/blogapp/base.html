@@ -1,0 +1,60 @@
+{% load staticfiles %}
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<link rel="stylesheet" href="{% static 'css/style.css' %}">
+		<link rel="shortcut icon" href="{% static 'img/favicon.ico' %}">
+		<title>
+			Заметки по случаю
+		</title>
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<div class="table">
+					<div class="row">
+						<div class="logo">
+							<a href="/">
+								<img src="/static/img/sk.png" alt="Sinkaiya Katsuragi" title="Sinkaiya Katsuragi" width="120" height="70">
+							</a>
+						</div>
+						<div class="cell">
+							<nav>
+								<ul class="ulnav">
+									<li class="linavactive">
+										<a href="/">
+											ЗАМЕТКИ
+										</a>
+									</li>
+									<li class="linav">
+										<a href="/contacts/">
+											КОНТАКТЫ
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div id="content">
+				<article>
+					<div class="articletext">
+						{% block content %}
+                        {% endblock %}
+					</div>
+				</article>
+			</div>
+			<footer>
+				<p>
+					Спасибо, что читаете! Пожалуйста, используйте материалы с пользой и не забывайте ставить ссылки на источник.
+				</p>
+				<p>
+					&copy; Sinkaiya Katsuragi 2006-2017.
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>
