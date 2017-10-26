@@ -3,11 +3,24 @@
 {% block content %}
     {% for post in posts %}
         <div class="post">
-            <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
-            <p>{{ post.text|linebreaksbr|slice:':600' }}...</p>
-            <div class="grey">
-                {{ post.created_date }}
-            </div>
+            <h2>
+                <a href="{% url 'post_detail' pk=post.pk %}">
+                    {{ forloop.counter }}.
+                    {{ post.title }}
+                </a>
+            </h2>
+            <p>
+                {{ post.text|linebreaksbr|slice:':600' }}...
+            </p>
+            {% if forloop.last %}
+                <div class="greylast">
+                    {{ post.created_date }}
+                </div>
+            {% else %}
+                <div class="grey">
+                    {{ post.created_date }}
+                </div>
+            {% endif %}
         </div>
     {% endfor %}
 {% endblock %}

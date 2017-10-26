@@ -99,6 +99,15 @@ footer {
 	margin: 0;
 	padding: 0;
 }
+.greylast {
+	font-family: Myriad, sans-serif;
+	font-size: 20px;
+	color: #e25454;
+	font-weight: normal;
+	text-align: right;
+	margin: 0;
+	padding: 0;
+}
 h2 {
 	font-family: Myriad, sans-serif;
 	font-size: 25px;
