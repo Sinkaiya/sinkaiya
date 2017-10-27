@@ -1,31 +1,28 @@
-
-
-{% block menu %}
-    <header>
-				<div class="table">
-					<div class="row">
-						<div class="logo">
+{% load staticfiles %}
+<header>
+    <div class="table">
+	    <div class="row">
+		    <div class="logo">
+			    <a href="{% url 'post_list' %}">
+				    <img src="{% static 'img/sk.png' %}" alt="Sinkaiya Katsuragi" title="Sinkaiya Katsuragi" width="120" height="70">
+				</a>
+			</div>
+			<div class="cell">
+				<nav>
+					<ul class="ulnav">
+						<li class="linavactive">
 							<a href="{% url 'post_list' %}">
-								<img src="{% static 'img/sk.png' %}" alt="Sinkaiya Katsuragi" title="Sinkaiya Katsuragi" width="120" height="70">
+								ЗАМЕТКИ
 							</a>
-						</div>
-						<div class="cell">
-							<nav>
-								<ul class="ulnav">
-									<li class="linavactive">
-										<a href="{% url 'post_list' %}">
-											ЗАМЕТКИ
-										</a>
-									</li>
-									<li class="linav">
-										<a href=" {% url 'contacts' %}">
-											КОНТАКТЫ
-										</a>
-									</li>
-								</ul>
-							</nav>
-						</div>
-					</div>
-				</div>
-			</header>
-{% endblock %}
+						</li>
+						<li class="linav">
+							<a href=" {% url 'contacts' %}">
+								КОНТАКТЫ
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
