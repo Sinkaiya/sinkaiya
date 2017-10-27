@@ -1,5 +1,12 @@
 {% extends 'blogapp/base.html' %}
 
+{% block title %}
+    Заметки по случаю
+{% endblock %}
+
+{% block staticcss %}
+{% endblock %}
+
 {% block content %}
     {% for post in posts reversed %}
         <div class="post">

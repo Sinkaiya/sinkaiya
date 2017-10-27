@@ -1,5 +1,12 @@
 {% extends 'blogapp/base.html' %}
 
+{% block title %}
+    Заметки по случаю: {{ post.title }}
+{% endblock %}
+
+{% block staticcss %}
+{% endblock %}
+
 {% block content %}
     <div class="articletext">
         <h2>
