@@ -1,18 +1,18 @@
 {% extends 'blogapp/base.html' %}
 
 {% block content %}
-    {% for post in posts %}
+    {% for post in posts reversed %}
         <div class="post">
             <h2>
                 <a href="{% url 'post_detail' pk=post.pk %}">
-                    {{ forloop.counter }}.
+                    {{ forloop.revcounter }}.
                     {{ post.title }}
                 </a>
             </h2>
             <p>
                 {{ post.text|linebreaksbr|slice:':600' }}...
             </p>
-            {% if forloop.last %}
+            {% if forloop.first %}
                 <div class="greylast">
                     {{ post.created_date }}
                 </div>

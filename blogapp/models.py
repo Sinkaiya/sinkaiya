@@ -9,7 +9,7 @@ class Post(models.Model):
     created_date = models.DateTimeField(default=timezone.now)
 
     def publish(self):
-        self.published_date = timezone.now()
+        self.created_date = timezone.now()  # Раньше здесь было publish_date, но его же нет в атрибутах...
         self.save()
 
     def __str__(self):
