@@ -10,14 +10,27 @@
 			{% block title %}
 			{% endblock %}
 		</title>
-        {% block staticcss %}
+        {% block staticjs %}
         {% endblock %}
 	</head>
 	<body>
 		<div id="container">
-			{% block menu %}
-                {% include 'blogapp/menu.html' %}
-            {% endblock %}
+            <header>
+                <div class="table">
+	                <div class="row">
+		                <div class="logo">
+			                <a href="{% url 'post_list' %}">
+				                <img src="{% static 'img/sk.png' %}" alt="Sinkaiya Katsuragi" title="Sinkaiya Katsuragi" width="120" height="70">
+				            </a>
+			            </div>
+			            <div class="cell">
+                            {% block menu %}
+                                {% include 'blogapp/menu/menu.html' %}
+                            {% endblock %}
+                        </div>
+		            </div>
+	            </div>
+            </header>
 			<div id="content">
 				<article>
 					<div class="articletext">

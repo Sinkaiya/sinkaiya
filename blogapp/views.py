@@ -16,5 +16,6 @@ def post_detail(request, pk):
 def not_found_view(request):
     return render(request, 'blogapp/404.html', {})
 
+
 def contacts(request):
     return render(request, 'blogapp/contacts.html', {})
