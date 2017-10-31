@@ -16,6 +16,11 @@
                     {{ post.title }}
                 </a>
             </h2>
+            <div class="articlepic">
+				<a href="./eysenck.html">
+					<img src="/media/{{ post.preview_image }}" alt="{{ post.title }}" width="90" height="90">
+				</a>
+			</div>
             <p>
                 {{ post.text|linebreaksbr|slice:':600' }}...
             </p>
