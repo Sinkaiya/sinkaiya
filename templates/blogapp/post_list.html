@@ -1,4 +1,4 @@
-{% extends 'blogapp/base.html' %}
+{% extends 'base.html' %}
 
 {% block title %}
     Заметки по случаю
@@ -17,12 +17,12 @@
                 </a>
             </h2>
             <div class="articlepic">
-				<a href="./eysenck.html">
+				<a href="{% url 'post_detail' pk=post.pk %}">
 					<img src="/media/{{ post.preview_image }}" alt="{{ post.title }}" width="90" height="90">
 				</a>
 			</div>
             <p>
-                {{ post.text|linebreaksbr|slice:':600' }}...
+                {{ post.text|linebreaksbr|slice:':370' }}...
             </p>
             {% if forloop.first %}
                 <div class="greylast">
