@@ -49,7 +49,7 @@ I'm a 42-year-old self-taught Python developer with a background in medicine. Af
 
 ## GitHub and Personal Projects:
 
-<p align = 'justify'><a href="https://t.me/EidosCollectorBot" target="_blank">Eidos Collector Bot</a>: a Telegram bot designed for saving inspiring ideas and concepts. It's built using Python 3, mysql.connector, and aiogram 2. You can explore the source code. <a href="https://github.com/sinkaiya/eidos-collector-bot" target="_blank">here</a>.</p>
+<p align = 'justify'><a href="https://t.me/EidosCollectorBot" target="_blank">Eidos Collector Bot</a>: a Telegram bot designed for saving inspiring ideas and concepts. It's built using Python 3, mysql.connector, and aiogram 2. You can explore the source code <a href="https://github.com/sinkaiya/eidos-collector-bot" target="_blank">here</a>.</p>
 
 <p align = 'justify'><a href="https://t.me/SimpleDonateBot" target="_blank">Simple Donate Bot</a>: another Telegram bot I created to facilitate fundraising with the option to accept payments in both rubles and dollars. This bot is developed using Python 3 and PyTelegramBotAPI/Telebot. To see the source code click <a href="https://github.com/sinkaiya/simple-donate-bot" target="_blank">here</a>.</p>
 
