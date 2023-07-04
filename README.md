@@ -41,11 +41,11 @@ I'm a 42-year-old self-taught Python developer with a background in medicine. Af
 
 <p align = 'justify'>Programming Languages: I primarily work with Python 3, and I have a good understanding of OOP principles.</p>
 
-<p align = 'justify'>Databases: I actively use MySQL in my projects to handle data storage and retrieval efficiently, including the mysql.connector library.</p>
+<p align = 'justify'>Databases: I actively use MySQL, including the mysql.connector library.</p>
 
-<p align = 'justify'>Version Control: I'm proficient in using Git to track and manage changes in my codebase effectively.</p>
+<p align = 'justify'>Version Control: I'm proficient in using Git to track and manage changes in my codebase.</p>
 
-<p align = 'justify'>AI: I actively use neural networks and artificial intelligence technologies in my work, including ChatGPT and character.ai.</p>
+<p align = 'justify'>AI: I actively use AI technologies in my work, including ChatGPT and character.ai.</p>
 
 ## GitHub and Personal Projects:
 
@@ -70,5 +70,3 @@ I'm a 42-year-old self-taught Python developer with a background in medicine. Af
 ## Professional Objective
 
 <p align = 'justify'>I am currently actively seeking employment in software development. I am interested in projects related to Python programming, automation, and working with databases. I am ready to apply my skills and experience to contribute to the company's goals and advance in the field of development. Feel free to explore my projects and reach out to me for any inquiries or collaboration opportunities. You can contact me via email <a href="mailto:sinkaiya@gmail.com">sinkaiya@gmail.com</a> or Telegram <a href="https://t.me/sinkaiya">@sinkaiya</a>.</p>
-
-<p align = 'justify'>Thank you for your time, and I look forward to connecting with you!<p align = 'justify'>
