@@ -47,7 +47,7 @@ I'm a 42-year-old self-taught Python developer with a background in medicine. Af
 
 <p align="justify">Version Control: I am skilled in using Git to track and manage changes in my codebase.</p>
 
-<p align = "justify">Server Administration: I have successfully set up and configured a virtual server running Debian and MySQL to host my personal projects. I use Docker for containerization and Jenkins for continuous integration and deployment of my projects. I can set up and configure pipelines to automate the build and deployment process.</p>
+<p align = "justify">Server Administration: I have successfully set up and configured a virtual server running Debian and MySQL to host my personal projects. I use Docker for containerization and Jenkins for continuous integration and deployment. I can set up and configure pipelines to automate the build and deployment process.</p>
 
 <p align="justify">Linux: I work on Xubuntu and feel comfortable with the terminal. I can write Bash scripts to automate tasks and streamline workflows.</p>
 
