@@ -53,7 +53,7 @@ I'm a 42-year-old self-taught Python developer with a background in medicine. Af
 
 <p align="justify">AI: I actively use AI technologies in my work, including ChatGPT and character.ai.</p>
 
-<p align="justify">Website Development: I can create websites using HTML and CSS. For example, you can visit http://fmgen.ru to see one of my projects.</p>
+<p align="justify">Website Development: I can create websites using HTML and CSS. For example, you can visit <a href="http://fmgen.ru" target="_blank">http://fmgen.ru</a> to see one of my projects.</p>
 
 ## Personal Projects:
 
