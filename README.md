@@ -1,7 +1,5 @@
 <p align='center'>
-    <a href="mailto:sinkaiya@gmail.com">
-    <img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />    
-  </a>&nbsp;
+    <a href="mailto:sinkaiya@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
   <a href="https://t.me/sinkaiya">
     <img src="https://img.shields.io/badge/-telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Badge">
   </a>
